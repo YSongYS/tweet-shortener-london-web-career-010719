@@ -30,9 +30,6 @@ def bulk_tweet_shortener(tweets)
     new_tweets[i] = word_substituter(tweets[i])
     i += 1
   end
-  #tweets.map do |tweet|
-  #  tweet = word_substituter(tweet)
-  #end
   puts new_tweets
 end
 
