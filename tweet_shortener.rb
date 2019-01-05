@@ -13,7 +13,7 @@ def dictionary (lookup)
     "at" => "@",
     "and" => "&"}
   dictionary.each do |key,value|
-    replace = value if key == lookup
+    replace = value if key == lookup || key.capitalize == lookup || key.upcase == lookup
   end
   replace
 end
