@@ -28,7 +28,7 @@ def bulk_tweet_shortener(tweets)
   new_tweets = []
   while i<tweets.size do
     new_tweets[i] = word_substituter(tweets[i])
-    prints new_tweets[i]
+    print new_tweets[i]
     i += 1
   end
   new_tweets
