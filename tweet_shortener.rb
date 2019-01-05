@@ -28,10 +28,8 @@ def bulk_tweet_shortener(tweets)
   new_tweets = []
   while i<tweets.size do
     new_tweets[i] = word_substituter(tweets[i])
+    prints new_tweets[i]
     i += 1
   end
-  puts new_tweets
+  new_tweets
 end
-
-bulk_tweet_shortener(["you and me", "me and you"])
-word_substituter("you and me")
